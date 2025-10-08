@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #fff;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.navbar{
+    color: goldenrod;
+    align-items: center;
+    padding: 20PX;
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 2px 2px 10px rgb(80, 82, 82);
+}
+.boom li{
+    display: inline;
+}
+.boom a{
+    margin: 15px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.nice{
+    text-align: center;
+    margin: 65px;
+}
+.yes h1{
+    color: goldenrod;
+    text-align: center;
+    font-size: 50px;
+}
+.yes p{
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+}
+text span{
+}
+.click{
+    margin-top: 30px;
+}
+.click button{
+    margin: 20px;
+    background-color: goldenrod;
+    width: 16vw;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: 300;
+}
+#btn{
+    background-color: transparent;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
+.pic{
+    background-color: rgb(26, 26, 26);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    
+
+}
+.goal img{
+    border: 3px solid goldenrod;
+    border-radius: 540px;
+    width: 350px;
+    margin-left: 50px;
+
+
+}
+.you{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.you button{
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    color: goldenrod;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+.pic h1{
+    color: goldenrod;
+
+}
+.pic p{
+    color: white;
+    text-align: start;
+}
+.colum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .bizz{
+    border: 2px solid rgb(26, 25, 25);
+    margin: 20px;
+    width: 500px;
+    padding: 20px;
+}
+.big h1{
+      color: goldenrod;
+      text-align: center;
+      margin-top: 20px;
+}
+.bizz h5{
+    color: goldenrod;
+}
+.bizz h6{
+    color: goldenrod;
+}
+.good{
+    background-color:  rgb(26, 26, 26);
+}
+.vice h1{
+    text-align: center;
+    color: goldenrod;
+    padding: 40px;
+}
+.pipi{
+    border-radius: 20px;
+    width: 400px;
+    border: 2px solid rgb(61, 61, 61);
+}
+.pipi img{
+    width: 400px;
+
+}
+.well{
+    margin: 20px;
+}
+.second{
+
+}
+.very h1{
+    text-align: center;
+    color: goldenrod;
+    margin-top: 40px;
+}
+.last{
+    padding: 20px;
+    margin-top: 25px;
+    border: 2px solid rgb(61, 61, 61);
+    width: 500px;
+    margin: 45px;
+}
+#viu{
+    color: goldenrod;
+}
+.diva{
+    background-color: rgb(197, 144, 8);
+}
+.claudi{
+    text-align: center;
+    padding: 80px;
+    font-size: 20px;
+}
+.claudi h1{
+    margin-bottom: 15px;
+    color: black;
+
+}
+.claudi p{
+    color: black;
+}
+.claudi button{
+    margin-top: 35px;
+    width: 16vw;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: black;
+    color: goldenrod;
+    
+}
+.foot{
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.end{
+    padding: 20px;
+}
+.end h2{
+    color: goldenrod;
+}
+.end a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+

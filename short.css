@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.hero{
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: goldenrod;
+}
+/* .audio{
+    min-width: 10%;
+    min-height: 10%;
+    height:auto; 
+    width: auto;
+} */
+/* .audio{
+    min-width: 10%;
+    min-height: 100%;
+    height:auto; 
+    width: auto;
+} */
+.hero-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height:auto; 
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    /* opacity: 500px; */
+}
+.hero-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.hero-content{
+    /* position: relative; */
+    z-index: 2;
+    /* max-width: 900px;     */
+    border-left: 60px solid white;
+    border-top-left-radius: 50px;
+}
+.hero-content h1{
+    color: rgb(218, 144, 32);
+    font-size: 125px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: start;
+}
+.hero-content p{
+    margin-left: 30px;
+    color: white;
+    text-align: start;
+}
+.img{
+    display: flex;
+
+}
+.port img{
+    width: 60px;
+    border: 2px solid rgb(102, 238, 243);
+    border-radius: 35px;
+}
+.port h1{
+    color: goldenrod;
+}
+.port h1, a{
+    margin-left: 7px;
+}
+span{
+    color: rgb(102, 238, 243);
+}
+.now a{
+     text-decoration: none;
+     color: white;
+    
+}
+.navbar{
+    color: aliceblue;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    
+
+}
+.like a{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold; 
+    margin: 20px;
+}
+nav a:hover {
+    color: white;
+}
+.port{
+    background-color: black;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.navlinks{
+    margin-top: 40px;
+}
+.like i{
+    font-size: 40px;
+    color: goldenrod;
+}
+.like li{
+    text-decoration: none;
+    margin: 30px;
+    display: flex;
+    display: inline;
+    
+}
+.stt{
+    background-color: rgb(29, 13, 13);
+    color: white;
+    padding: 50px;    
+}
+.give{
+    display: flex;    
+}
+.pic img{
+    width: 550px;
+    border: 2px solid  rgb(102, 238, 243);
+    border-radius: 260px;
+}
+.yut{
+    color: rgb(233, 227, 227);
+    margin: 50px;
+}
+.yut h1{
+    font-size: 100px;
+    color: rgb(102, 238, 243);
+}
+#folie{
+    color: azure;
+    border-top: 2px solid azure;
+}
+.yut button{
+    margin-top: 15px;
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: goldenrod;
+    background-color: black;
+    border-radius: 25px;
+    border-color: rgb(102, 238, 243);
+    align-content: center;
+}
+.wiki{
+    position: relative;
+    height: 40vh;
+    overflow: hidden;
+} 
+.vid-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.uty{
+    background: rgb(5, 54, 54);
+    height: 70vh;
+}
+.bed{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 140px;
+}
+.bed p{
+    border-left: 10px solid white;
+    font-size: 17px;
+    padding: 30px;
+    margin-left: 30px;
+    color: rgb(224, 217, 217);
+    border-top: 1px solid white;
+}
+#nom{
+    font-weight: bold;
+    color: goldenrod;
+}
+#jwl a{
+    font-weight: bold;
+    color: rgb(102, 238, 243);
+}
+.bed h1{
+    font-size: 70px;
+    color: goldenrod;
+    font-weight: bold;
+}
+#jik{
+    color: rgb(102, 238, 243);
+    font-size: 95px;
+    display: block;
+    font-weight: bolder;
+}
+.pol{
+    background-color: rgb(29, 13, 13);
+    color: aquamarine;
+}
+.nick{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.row{
+    text-align: center;
+}
+.qrt{
+    color: goldenrod;
+}
+ul li{
+    color: goldenrod;
+}
+.im img{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid white;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.sing{
+    background: rgb(5, 54, 54);
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+}
+.niv li{
+    background: rgb(87, 65, 11);
+    margin: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+.frt h2{
+    color: white;
+    font-size: 50px;
+}
+.bty{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.bty p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bty button{
+    width: 150px;
+    height: 70px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: goldenrod;
+    font-size: 20px;
+    background-color: black;
+}
+.bty i{
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
+#mom i{
+    color: red;
+}
+#mum i{
+    color: rgb(6, 111, 230);
+}
+.suis{
+     background-color: rgb(29, 13, 13);
+     /* border-top-right-radius: 90px; */
+}
+.suis{
+     display: flex;
+     justify-content: space-around;
+}
+.poli{
+    margin-top: 150px;
+    font-size: 50px;
+}
+.poli h1{
+    color: rgb(214, 197, 154);
+}
+.poli p{
+    font-size: 25px;
+    margin: 20px;
+}
+.poli i{
+    font-size: 45px;
+}
+.poli a{
+    text-decoration: none;
+    color: rgb(8, 128, 240);
+}
+.palu img{
+    height: 550px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+    margin-bottom: 50px; 
+
+}
+.wiki{
+    background: rgb(5, 54, 54);
+    height: 345px;
+    border-top-right-radius: 90px;
+}
+#dil{
+    margin-top: 120px;
+    font-size: 9px;
+}
+#dil i{
+    font-size: 20px;
+}
+.end{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+    /* border-bottom: 1px solid white; */
+}
+.end h2{
+    color: rgb(102, 238, 243);
+    margin-bottom: 20px;
+    text-align: start;
+    font-size: 15px;
+    /* border-bottom: 1px solid white; */
+    /* text-decoration: underline; */
+    
+}
+.year p{
+    font-size: 13px;
+    color: rgb(231, 222, 210);
+}
+.nid a{
+    color: rgb(223, 205, 182);
+    text-decoration: none;
+    font-weight: bold;
+    /* height: 60px; */
+    
+}
+ul li{
+    list-style: none;
+    height: 30px;
+}
+.cont li{
+    height: 40px;
+    list-style: none;
+    color: rgb(12, 134, 204);
+    font-size: 13px;
+    font-weight: bold;
+}
+.cont a{
+    text-decoration: none;
+    color: rgb(231, 222, 210);
+}
+.cont i{
+    font-size: 20px;
+}
+.emo{
+    margin-top: 50px;
+    color: rgb(231, 222, 210);
+    font-weight: bold;
+}
+.emo i{
+    font-size: 20px;
+}
+.emo input{
+    border-radius: 120px;
+    border: 1px solid rgb(231, 222, 210);
+    background: transparent;
+    color: rgb(231, 222, 210);
+    padding: 3px;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(10, 10, 10, 0.466);
+}
+.emo input::placeholder{
+    color: rgb(231, 222, 210);
+}
+#wh a{
+    /* color: rgb(17, 185, 17); */
+}
+#wh{
+    color: rgb(17, 185, 17);
+}
+#yutb a{
+    color: rgb(231, 222, 210);
+}
+#yutb i{
+    color: rgb(235, 19, 19);
+}
+#jio a{
+    /* color: rgb(12, 134, 204); */
+}
+.foot{
+    font-size: 13;
+    text-align: center;
+    border-top: 1px solid rgb(231, 222, 210);
+    border-top-style: dotted;
+      
+}
+.foot p{
+    font-size: 11px;
+    color: rgb(231, 222, 210);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    
+
+}
+.foot a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(12, 134, 204);
+}
+
+
+
+
+/* .vid-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+} */
+

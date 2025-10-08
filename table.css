@@ -1,0 +1,27 @@
+
+body{
+    background-color: #ccc;
+}
+table{
+    width: 100%;
+    border: collapse;
+    margin: auto;
+    background: white;
+    border-collapse: collapse;
+
+}
+th, td{
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+tr{
+    color: black;
+
+}
+th{
+    background: green;
+}
+.br{
+    background-color: goldenrod;
+}

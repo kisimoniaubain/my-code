@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    ;
+}
+.navbar{
+    display: flex;
+    height: 14pc;
+    text-decoration: none;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px rgb(3, 73, 90);
+    background-color: rgb(225, 241, 241);
+    /* background-image: url(nav.jpg); */
+    z-index: 999;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;  
+}
+.hero{
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: goldenrod;
+}
+.hero-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height:auto; 
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    /* opacity: 500px; */
+}
+.hero-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.lio img{
+    width: 280px;
+    padding-left: 40px;
+}
+.imo li{
+    list-style: none;
+    margin: 20px;
+    display: inline; 
+    margin-right: 30px;   
+}
+.imo a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(6, 89, 110);
+    font-size: 13px;
+}
+.navlinks a:hover{
+    /* transform: rotate3d(0.2s); */
+    border-bottom: 5px solid rgb(6, 89, 110);
+    padding: 3px;
+    transition: 0.2s ease;
+}
+.navlinks{
+    text-decoration: none;
+    margin-top: 140px;
+}
+.hero-content{
+    z-index: 2;
+    
+}
+.hero-content h1{
+    text-shadow: 1px 1px 3px gray;
+    font-size: 90px;
+    color: white;
+    padding-bottom: 40px;
+}
+.hero-content p{
+    text-shadow: 1px 1px 3px black;
+    color: white;
+    padding-bottom: 90px;
+    font-size: 20px;
+}
+#juu{
+    border-bottom: 13px solid white;
+    border-bottom-style: dotted;
+    padding-bottom: 50px;
+}
+.abou{
+    height: 40pc;
+    background-color: rgb(225, 241, 241);
+    /* text-align: center;     */
+}
+.con{
+    /* margin-top: 200px; */
+    padding-top: 100px;
+}
+.know{
+    color: rgb(6, 89, 110);
+    text-align: center;
+    font-size: 60px;
+    /* text-shadow: 2px 2px 5px black; */
+}
+.know h4{
+    font-size: 55px;
+    color: rgb(192, 118, 8);
+}
+.pg{
+    color: rgb(6, 89, 110);
+    text-align: center;
+    font-size: 17px;
+}
+#njo{
+    padding-bottom: 40px;
+    border-bottom: 7px solid rgb(6, 89, 110);
+}
+#njo1{
+    padding-bottom: 40px;
+    border-bottom: 7px solid rgb(192, 118, 8);
+}
+.low{
+    /* background-image: url(boy5.jpg); */
+    /* background-color: rgb(225, 241, 241); */
+    background-color: white;
+    height: 50pc;
+}
+.ye{
+    text-align: center;
+    color: rgb(6, 89, 110);
+    text-shadow: 2px 2px 2px black;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.hd{
+    display: flex;
+    margin: 10px;
+}
+.all{
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(225, 241, 241);
+    padding: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+.all h3{
+    color: rgb(6, 89, 110);
+    padding-bottom: 20px;
+}
+#njoa{
+    border-bottom: 5px solid rgb(6, 89, 110);
+    padding-bottom: 20px;
+}
+#njob{
+    border-bottom: 7px solid rgb(192, 118, 8);
+    /* border-style: dotted; */
+    border-bottom-style: dotted;
+    padding-bottom: 20px;
+}
+.all p{
+    font-size: 15px;
+    padding-top: 10px;
+    color: rgb(3, 78, 97);
+    border-bottom: 2px solid rgb(192, 118, 8);
+    border-bottom-style: dotted;
+    padding-bottom: 10px;
+}
+.psg{
+    background-color: rgb(225, 241, 241);
+    height:45pc;
+}
+.mid{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(3, 78, 97);
+    font-size: 44px;
+}
+.every{
+    display: flex;
+    align-items: center;
+    padding-left: 37px;
+    padding-top: 20px;
+}
+.mon{
+    margin: 10px;
+    padding-left: 20px;
+    padding: 35px;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 5px;
+    box-sizing: 50px;
+    margin-top: 30px;
+}
+.mon i{
+    font-size: 30px;
+    color: rgb(3, 78, 97);
+}
+.mon ul{
+    /* padding-top: 40px; */
+    color: rgb(3, 78, 97);
+}
+.mon h5{
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: rgb(3, 78, 97);
+}
+#mop1{
+    border-bottom: 4px solid rgb(3, 78, 97);
+    padding-bottom: 20px;
+}
+#mop2{
+    border-bottom: 4px solid rgb(192, 118, 8);
+    padding-bottom: 20px;
+}
+.mon button{
+    align-items: center;
+    font-size: 15px;
+    color: rgb(3, 78, 97);
+    background-color: transparent;
+    border: 2px solid rgb(3, 78, 97);
+    font-weight: bold;
+    border-radius: 30px;
+    height: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 25px;
+    margin-left: 60px;
+    /* box-shadow: 2px 2px 3px black; */
+    transition: 0.4s ease;
+
+}
+.mon button:hover{
+    background-color: rgb(3, 78, 97);
+    color: white;
+    /* padding: 5px; */
+      transform: scale(0.8);
+}
+.lp{
+    background-color: white;
+    height: 53pc;
+}
+.swip{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(3, 78, 97);
+    font-size: 25px;
+}
+.swip h4{
+    color: rgb(179, 108, 3);
+}
+.swip img{
+    width: 150px;
+}
+.hear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* border: 2px solid goldenrod; */
+}
+form{
+    
+}
+.reg{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    padding: 30px;
+    color: rgb(3, 78, 97);
+    font-weight: bold;
+    background-color: rgb(225, 241, 241);
+
+}
+#reach{
+    
+}
+.reg input{
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    box-shadow: 2px 2px 5px gray;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(3, 78, 97);
+    padding: 20px;
+    /* padding-left: 30px; */
+    /* padding-right: 70px; */
+}
+.reg select{
+    border-radius: 10px;
+    color: gray;
+    padding: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 70px;
+    box-shadow: 2px 2px 5px gray;
+}
+label{
+    font-size: 20px;
+}
+#email{
+    padding-right: 300px;
+    color: rgb(0, 132, 255);
+}
+#name{
+    padding-right: 250px;
+}
+#number{
+    /* padding-right: 25px; */
+}
+#reach h4{
+    font-size: 40px;
+    align-items: center;
+    padding-left: 10pc;
+    padding-bottom: 15px;
+}
+.reg button{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(3, 78, 97);
+    box-shadow: 2px 2px 7px grey;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 90px;
+    width: 585px;
+    margin-top: 25px;
+    transition: 0.4s ease;
+} 
+.reg button:hover{
+    /* background-color: rgb(3, 78, 97); */
+    /* color: white; */
+    transform: scale(0.8);
+}
+.ville{
+    height: 43pc;
+    background-color: rgb(225, 241, 241);
+}
+.mission{
+    text-align: center;
+    padding-top: 60px;
+    color: rgb(3, 78, 97);
+}
+.mission h1{
+    font-size: 100px;
+    
+}
+.mission h2{
+    font-size: 35px;
+    color: rgb(179, 108, 3);
+
+}
+.molo{
+    height: 225pc;
+    background-color: blanchedalmond;
+}

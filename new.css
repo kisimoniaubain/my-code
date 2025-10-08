@@ -1,0 +1,40 @@
+*
+.contain{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(0, 0, 0);
+      height: 100vh;
+}
+.good{
+    background-color: rgb(19, 17, 17);
+    padding: 30px;
+    color: rgb(255, 249, 249);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.466);
+    width: 300px;
+}
+.good input{
+    background: transparent;
+    width: 200px;
+    height: 30px;
+    border-bottom: 1px solid blue;
+    border-radius: 15px;
+    border: transparent;
+
+
+}
+.good input::placeholder{
+    color: white;
+    padding: 10px;
+}
+input:nth-child(3){
+    border-bottom: 1px solid blue;
+}
+input:nth-child(18){
+    border: 1px solid blue;
+    transition: 0.3s ease; 
+}
+input:nth-child(18){
+     
+}                   

@@ -1,0 +1,47 @@
+ul{
+    color: blue;
+    list-style-type: square;
+    text-align: center;
+}
+li:nth-child(3){
+    list-style-type: circle;
+    color: brown;
+
+}
+li:nth-child(1)::marker{
+          content: "❤";
+}
+li:nth-child(2)::marker{
+          content: "🍊";
+}
+li:nth-child(3)::marker{
+          content: "🍏";
+}
+li:nth-child(4)::marker{
+          content: "🍌";
+}
+li:nth-child(5)::marker{
+          content: "🥭";
+}
+li:nth-child(6)::marker{
+          content: "🧅";
+}
+li:nth-child(7)::marker{
+          content: "🥕";
+}
+li:nth-child(8)::marker{
+          content: "🍅";
+}
+li:nth-child(9)::marker{
+          content: "🍍";
+}
+li:nth-child(10)::marker{
+          content: "🥬";
+}
+li:nth-child(11)::marker{
+          content: "🐚";
+}
+li:nth-child(12)::marker{
+          content: "🥥";
+}
+
